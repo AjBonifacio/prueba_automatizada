@@ -90,7 +90,7 @@ class GenerarInforme:
 
     @staticmethod
     def generar_informe():
-        # Datos de resultados de las pruebas
+        
         resultadosReportes = [
             {"test": "test_login_correcto", "resultado": "Pasó", "detalles": "Login correcto."},
             {"test": "test_login_incorrecto", "resultado": "Pasó", "detalles": "Mensaje de error por login incorrecto."},
